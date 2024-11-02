@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 
 function Start() {
   return (
-    <div className="flex mt-28 mx-4 h-screen text-white bg-gray-900 font-serif">
-      <div className="w-1/4 h-full bg-gray-800 p-4 overflow-y-auto shadow-lg">
+    <div className="flex flex-col md:flex-row mt-28 mx-4 h-screen text-white bg-gray-900 font-serif">
+      <div className="w-full md:w-1/4 h-full bg-gray-800 p-4 overflow-y-auto shadow-lg">
         <h2 className="text-2xl font-semibold mb-4">Components</h2>
         <nav className="space-y-3">
           <NavLink
@@ -65,7 +65,7 @@ function Start() {
           </NavLink>
         </nav>
       </div>
-      <div className="w-3/4 p-8">
+      <div className="w-full md:w-3/4 p-8">
         <h1 className="text-3xl font-bold mb-6">Component Setup Guide</h1>
         <p className="text-lg leading-relaxed">
           Here you’ll find the basic setup instructions for each component.
