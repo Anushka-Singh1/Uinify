@@ -1,8 +1,16 @@
 import './index.css';
+import Home from './Pages/Home';
+import Navbar from './Components/Navbar';
+import { Routes,Route } from 'react-router-dom';
 function App() {
 
   return (
-      <h1 className="text-3xl font-bold underline bg-blue">Hello Components!</h1>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </>
   );
 }
 
