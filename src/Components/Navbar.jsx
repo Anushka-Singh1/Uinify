@@ -67,7 +67,7 @@ const Navbar = () => {
           </NavLink>
           <NavLink
             to="/about"
-            className="text-lg hover:bg-[#080808] px-4 py-2 rounded"
+            className="text-lg hover:bg-[#1D3244] px-4 py-2 rounded"
             onClick={toggleMenu}
           >
             About

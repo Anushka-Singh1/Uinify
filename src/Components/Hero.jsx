@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../assets/Hero/Hero.png";
+import { NavLink } from "react-router-dom";
 
 function Hero() {
   return (
@@ -21,7 +22,12 @@ function Hero() {
           </div>
           <div className="text-xl sm:text-2xl">
             your complete toolkit for faster, smarter web development.
-          </div>
+                  </div>
+                  <NavLink to="/start">
+                  <button className="bg-[#6D7179] hover:bg-[#080808] text-white px-6 py-2 rounded-xl mt-4">
+                      Get Started
+                      </button>
+                      </NavLink>
         </div>
       </div>
     </div>
