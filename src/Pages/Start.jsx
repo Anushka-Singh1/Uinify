@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Guidelines from "../Components/Guidelines";
 
 function Start() {
   return (
@@ -66,11 +67,7 @@ function Start() {
         </nav>
       </div>
       <div className="w-full md:w-3/4 p-8">
-        <h1 className="text-3xl font-bold mb-6">Component Setup Guide</h1>
-        <p className="text-lg leading-relaxed">
-          Here you’ll find the basic setup instructions for each component.
-          Click on any component from the left sidebar to view more details.
-        </p>
+        <Guidelines />
       </div>
     </div>
   );

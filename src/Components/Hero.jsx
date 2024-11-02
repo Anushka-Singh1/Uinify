@@ -4,11 +4,11 @@ import { NavLink } from "react-router-dom";
 
 function Hero() {
   return (
-    <div className="relative flex items-center justify-center h-screen">
+    <div className="relative flex items-center justify-center h-screen overflow-hidden">
       <img
         src={image}
         alt="Floating Element"
-        className="absolute top-14 right-5 w-[25%] sm:w-[20%] md:w-[18%] lg:w-[15%] transform rotate-12 sm:translate-x-4 sm:-translate-y-4 opacity-80"
+        className="absolute top-12 right-0 w-[25%] sm:w-[20%] md:w-[18%] lg:w-[15%] transform rotate-12 sm:translate-x-4 sm:-translate-y-4 opacity-80"
         style={{ zIndex: 10 }}
       />
       <div
@@ -22,12 +22,12 @@ function Hero() {
           </div>
           <div className="text-xl sm:text-2xl">
             your complete toolkit for faster, smarter web development.
-                  </div>
-                  <NavLink to="/start">
-                  <button className="bg-[#6D7179] hover:bg-[#080808] text-white px-6 py-2 rounded-xl mt-4">
-                      Get Started
-                      </button>
-                      </NavLink>
+          </div>
+          <NavLink to="/start">
+            <button className="bg-[#6D7179] hover:bg-[#080808] text-white px-6 py-2 rounded-xl mt-4">
+              Get Started
+            </button>
+          </NavLink>
         </div>
       </div>
     </div>
